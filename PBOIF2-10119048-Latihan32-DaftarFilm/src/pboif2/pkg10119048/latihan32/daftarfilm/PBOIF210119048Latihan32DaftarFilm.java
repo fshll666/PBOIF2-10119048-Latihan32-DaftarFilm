@@ -8,6 +8,10 @@ package pboif2.pkg10119048.latihan32.daftarfilm;
 /**
  *
  * @author SystemOs
+ * Nama      : Mochammad Faishal
+ * NIM       : 10119048
+ * Kelas     : IF2
+ * Deskripsi : Menampilkan Program Daftar film  film.
  */
 public class PBOIF210119048Latihan32DaftarFilm {
 
@@ -23,6 +27,21 @@ public class PBOIF210119048Latihan32DaftarFilm {
         film.rating = 7.3;
         film.duration = 120;
         film.nowPlaying(film.nama, film.genre, film.rating, film.duration);
+        
+        film.nama = "Dilan";
+        film.genre = "Roman, Drama";
+        film.rating = 6.1;
+        film.duration = 102;
+        film.nowPlaying(film.nama, film.genre, film.rating, film.duration);
+        
+        film.nama = "Dilan";
+        film.genre = "Roman, Drama";
+        film.rating = 6.1;
+        film.duration = 110;
+        film.nowPlaying(film.nama, film.genre, film.rating, film.duration);
+        
+        System.out.println("==========================================");
+        System.out.println("Developed by : Mochammad Faishal");
     }
     
 }

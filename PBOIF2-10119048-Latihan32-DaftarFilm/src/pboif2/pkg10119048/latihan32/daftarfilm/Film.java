@@ -8,6 +8,10 @@ package pboif2.pkg10119048.latihan32.daftarfilm;
 /**
  *
  * @author SystemOs
+ * Nama      : Mochammad Faishal
+ * NIM       : 10119048
+ * Kelas     : IF2
+ * Deskripsi : Clas film.
  */
 public class Film {
     String nama;
@@ -22,5 +26,7 @@ public class Film {
      System.out.println("Rating Film : " + rating);
      System.out.println("Duration Film : " + duration + " Menit");
      System.out.println("");
+     System.out.println("==========================================");
+     System.out.println("Developed by : Mochammad Faishal");
     }
 }
